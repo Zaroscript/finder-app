@@ -1,0 +1,226 @@
+/* ================ Start footer  ==================== */
+
+footer {
+  padding: 4rem;
+  background-color: var(--dark-font);
+  color: var(--white);
+}
+
+footer .logo {
+  color: var(--white);
+}
+
+.footer-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #222B39;
+}
+
+.footer-head .left {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.footer-head .left button {
+  margin-left: 1rem;
+  padding-block: 0.7rem;
+}
+
+.footer-head .right {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.3rem;
+} 
+
+.footer-head .right p {
+  color: #9CA3AF;
+}
+
+.footer-head .right a {
+  color: white;
+  text-underline-offset: 0.25rem;
+}
+
+.footer-head .right a:hover {
+  text-decoration: underline;
+}
+
+footer .row-one {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+footer .row-one .col-one {
+  flex-basis: 35%;
+}
+
+footer .row-one .col-two {
+  flex-basis: 30%;
+}
+
+footer .row-one .col-three {
+  flex-basis: 18%;
+}
+
+footer .row-one .logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.2rem;
+}
+
+footer .row-one .logo p {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+footer .row-one .col-one > p {
+  color: #9CA3AF;
+  margin-bottom: 2rem;
+  width: 70%;
+}
+
+footer .row-one .col-one .social {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+footer .row-one .col-one .social a {
+  background-color: #333d4c;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: var(--light-gray);
+  font-size: 0.75rem;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+footer .row-one .col-one .social a:hover {
+  background-color: var(--gray-font);
+}
+
+footer .row-one .categories {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1.9rem;
+  gap: 1rem 0;
+}
+
+footer .row-one .col-two .categories a {
+  flex-basis: 50%;
+  
+}
+
+footer .row-one .col-three .categories a {
+  flex-basis: 100%;
+}
+
+footer .row-one .col-three .categories a, footer .row-one .col-two .categories a {
+  color: #cad0d9;
+  text-underline-offset: 0.25rem;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+footer .row-one .col-three .categories a:hover, footer .row-one .col-two .categories a:hover {
+  color: var(--white);
+  text-decoration: underline;
+}
+
+footer .row-two {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+footer .row-two h3 {
+  width: 130px;
+  margin-top: 5px;
+}
+
+footer .row-two ul {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer .row-two ul li {
+  border: 1px solid #4e5562;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+footer .row-two ul li:hover {
+  border-color: var(--white);
+}
+
+footer .row-two ul li a{
+  display: block;
+  padding: 8px 15px;
+  color: var(--white);
+  font-size: 0.9rem;
+}
+
+footer .row-three {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .row-three .copyright {
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+footer .row-three .copyright a {
+  color: #cad0d9;
+}
+
+footer .row-three .copyright a:hover {
+  text-underline-offset: 0.25rem;
+  text-decoration: underline;
+}
+
+footer .row-three .payment {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* ================ End footer  ==================== */

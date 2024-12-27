@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finder | Account - Sign In</title>
+
+    <link
+      rel="shortcut icon"
+      href="../../../assets/images/logo.svg"
+      type="image/x-icon"
+    />
+
+    <!-- Main style file -->
+    <link rel="stylesheet" href="../../../assets/css/main.css" />
+    <!-- Sign In css file -->
+    <link rel="stylesheet" href="../../../assets/css/signIn.css" />
+
+    <!-- Google font (Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="sign-in">
+        <a href="../../../index.html" class="logo">
+          <img src="../../../assets/images/logo.svg" alt="logo" />
+          <span>Finder</span>
+        </a>
+
+        <form action="../../../index.html" method="post">
+          <h2>Welcome back</h2>
+          <p>
+            Don't have an account? <a href="signUp.html">Create an account</a>
+          </p>
+
+          <div class="input-fields">
+            <input type="email" placeholder="Email" name="email" required />
+            <div class="password">
+              <input
+                type="password"
+                placeholder="Password"
+                name="email"
+                required
+              />
+
+              <i class="fa-regular fa-eye"></i>
+            </div>
+          </div>
+
+          <div class="actions">
+            <div class="forget-password">
+              <div class="checkbox-wrapper-30">
+                <span class="checkbox">
+                  <input type="checkbox" />
+                  <svg>
+                    <use xlink:href="#checkbox-30" class="checkbox"></use>
+                  </svg>
+                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+                  <symbol id="checkbox-30" viewBox="0 0 22 22">
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      d="M5.5,11.3L9,14.8L20.2,3.3l0,0c-0.5-1-1.5-1.8-2.7-1.8h-13c-1.7,0-3,1.3-3,3v13c0,1.7,1.3,3,3,3h13 c1.7,0,3-1.3,3-3v-13c0-0.4-0.1-0.8-0.3-1.2"
+                    />
+                  </symbol>
+                </svg>
+              </div>
+              <label for="rememberMe">Remember for 30 days</label>
+            </div>
+
+            <a href="passwordRecovery.html">Forgot Password?</a>
+          </div>
+
+          <button type="submit" class="btn">Sign In</button>
+
+          <div class="otherMethods">
+            <div class="heading">
+              <span class="line"></span>
+              <p>or continue with</p>
+              <span class="line"></span>
+            </div>
+
+            <ul class="signIn-links">
+              <li>
+                <i class="fa-brands fa-google"></i>
+                <span>Google</span>
+              </li>
+              <li>
+                <i class="fa-brands fa-facebook-f"></i>
+                <span>Facebook</span>
+              </li>
+              <li>
+                <i class="fa-brands fa-apple"></i>
+                <span>Apple</span>
+              </li>
+            </ul>
+          </div>
+        </form>
+
+        <footer>
+          <a href="../../otherPages/help.html">Need help?</a>
+          <p>
+            &copy; All rights reserved. Made by
+            <a href="https://github.com/Zaroscript">Zaroscript</a>
+          </p>
+        </footer>
+      </section>
+      <div class="signIn-image">
+        <img src="../../../assets/images/images.png" alt="Sign in page image" />
+      </div>
+    </main>
+  </body>
+</html>

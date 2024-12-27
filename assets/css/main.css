@@ -1,0 +1,134 @@
+:root {
+  --cyan: #3d7a81;
+  --white: #ffffff;
+  --btn-color: #d85151;
+  --hover-btn: #f03d3d;
+  --dark-font: #111827;
+  --gray-font: #4e5562;
+  --transition: all 0.3s ease-out;
+  --dark-white: #f2f3f5;
+  --light-gray: #e0e5eb;
+  --gold: #fc9231;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--white);
+}
+
+a {
+  text-underline-offset: 0.25rem;
+}
+
+::selection {
+  background-color: var(--light-gray);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  color: var(--dark-font);
+  font-weight: 600;
+}
+
+.logo img {
+  width: 35px;
+}
+
+
+.btn {
+  padding: 9px 20px;
+  background-color: var(--btn-color);
+  color: var(--white);
+  border-radius: 8px;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--hover-btn);
+}
+
+section {
+  padding: 4.5rem 3rem;
+}
+
+.section-heading {
+  color: var(--dark-font);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+}
+
+.section-heading h2 {
+  font-size: 2rem;
+}
+
+.section-heading a {
+  color: inherit;
+  margin-right: 0.4rem;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.section-heading a:hover {
+  border-bottom: 1px solid var(--dark-font);
+}
+
+.section-heading .viewAll i {
+  font-size: 0.75rem;
+}
+
+.underline-effect {
+  position: relative;
+}
+
+.underline-effect::before {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: var(--dark-font);
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.underline-effect:hover::before {
+  width: 100%;
+}
+
+
+
+

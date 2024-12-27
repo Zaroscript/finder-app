@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finder | Contractors - Homepage</title>
+
+    <link
+      rel="shortcut icon"
+      href="assets/images/logo.svg"
+      type="image/x-icon"
+    />
+
+    <!-- Google font (Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Main style file -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- Navbar style file -->
+    <link rel="stylesheet" href="assets/css/navbar.css" />
+    <!-- Home page style file -->
+    <link rel="stylesheet" href="assets/css/home.css" />
+    <!-- Footer style file -->
+    <link rel="stylesheet" href="assets/css/footer.css" />
+  </head>
+
+  <!-- =============== start header ================ -->
+
+  <header>
+    <nav>
+      <a href="index.html" class="logo">
+        <img src="assets/images/logo.svg" alt="logo" />
+        <span>Finder</span>
+      </a>
+
+      <ul class="nav-links">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="pages/listing.html">Listings</a>
+        </li>
+        <li>
+          <a href="#">Account<i class="fa-solid fa-chevron-down"></i></a>
+
+          <ul class="dropdown">
+            <li><a href="#">Auth pages <i class="fa-solid fa-angle-right"></i></a>
+              <ul class="authPages">
+                <li><a href="pages/account/auth pages/signIn.html">Sign In</a></li>
+                <li><a href="pages/account/auth pages/signUp.html">Sign Up</a></li>
+                <li><a href="pages/account/auth pages/passwordRecovery.html">Password Recovery</a></li>
+              </ul>
+            </li>
+            <li><a href="pages/account/profile.html">My profile</a></li>
+            <li><a href="pages/account/myListings.html">My listings</a></li>
+            <li><a href="pages/account/reviews.html">Reviews</a></li>
+            <li><a href="pages/account/favorites.html">Favorites</a></li>
+            <li><a href="pages/account/payment.html">Payment details</a></li>
+            <li><a href="pages/account/settings.html">Account settings</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Pages<i class="fa-solid fa-chevron-down"></i>
+          </a>
+          <ul class="dropdown">
+            <li><a href="pages/otherPages/about.html">About</a></li>
+            <li><a href="pages/otherPages/blog.html">Blog</a></li>
+            <li><a href="pages/otherPages/contact.html">Contact</a></li>
+            <li><a href="pages/otherPages/help.html">Help center</a></li>
+            <li><a href="pages/otherPages/error404.html">404 Error</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="contact-container">
+        <i class="fa-regular fa-sun"></i>
+
+        <a href="pages/account/profile.html"><i class="fa-regular fa-user"></i></a>
+
+        <button class="btn"><span>+</span> Join pro network</button>
+      </div>
+    </nav>
+    <section class="hero">
+      <div class="hero-bg">
+        <img src="assets/images/heroBackground.png" alt="Hero background" />
+      </div>
+      <div class="hero-content">
+        <h1>Explore top-rated certified pros nearby</h1>
+
+        <form class="search-box">
+          <div class="left">
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input type="text" placeholder="What service do you need" />
+          </div>
+
+          <div class="right">
+            <div class="zipCode">
+              <i class="fa-solid fa-location-dot"></i>
+              <input type="text" placeholder="Zip code" />
+            </div>
+
+            <button class="btn" type="submit">search</button>
+          </div>
+        </form>
+
+        <div class="category-links">
+          <a href="#">Handyperson</a>
+          <a href="#">Electrician</a>
+          <a href="#">Plumbing</a>
+          <a href="#">Landscaping</a>
+          <a href="#">Roofing</a>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <!-- =============== end header ================ -->
+
+  <main>
+    <!-- =============== start categories section ================ -->
+    <section id="categories">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Browse pros in your area</h2>
+
+          <div class="viewAll">
+            <a href="">View all </a>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+
+        <div class="categories-wrapper">
+          <!-- Start category -->
+          <div class="category">
+            <div class="category-icon">
+              <img src="assets/images/images (59).png" alt="category icon" />
+            </div>
+            <a href="#" class="underline-effect">Flooring</a>
+          </div>
+          <!-- End category -->
+          <!-- Start category -->
+          <div class="category">
+            <div class="category-icon">
+              <img src="assets/images/images (58).png" alt="category icon" />
+            </div>
+            <a href="#" class="underline-effect">Concrete</a>
+          </div>
+          <!-- End category -->
+          <!-- Start category -->
+          <div class="category">
+            <div class="category-icon">
+              <img src="assets/images/images (57).png" alt="category icon" />
+            </div>
+            <a href="#" class="underline-effect">Cleaning</a>
+          </div>
+          <!-- End category -->
+          <!-- Start category -->
+          <div class="category">
+            <div class="category-icon">
+              <img src="assets/images/images (56).png" alt="category icon" />
+            </div>
+            <a href="#" class="underline-effect">Handyperson</a>
+          </div>
+          <!-- End category -->
+          <!-- Start category -->
+          <div class="category">
+            <div class="category-icon">
+              <img src="assets/images/images (55).png" alt="category icon" />
+            </div>
+            <a href="#" class="underline-effect">Painting</a>
+          </div>
+          <!-- End category -->
+          <!-- Start category -->
+          <div class="category">
+            <div class="category-icon">
+              <img src="assets/images/images (54).png" alt="category icon" />
+            </div>
+            <a href="#" class="underline-effect">Plumbing</a>
+          </div>
+          <!-- End category -->
+          <!-- Start category -->
+          <div class="category">
+            <div class="category-icon">
+              <img src="assets/images/images (53).png" alt="category icon" />
+            </div>
+            <a href="#" class="underline-effect">Pest control</a>
+          </div>
+          <!-- End category -->
+          <!-- Start category -->
+          <div class="category">
+            <div class="category-icon">
+              <img src="assets/images/images (52).png" alt="category icon" />
+            </div>
+            <a href="#" class="underline-effect">Heating & furnace</a>
+          </div>
+          <!-- End category -->
+          <!-- Start category -->
+          <div class="category">
+            <div class="category-icon">
+              <img src="assets/images/images (51).png" alt="category icon" />
+            </div>
+            <a href="#" class="underline-effect">Electrician</a>
+          </div>
+          <!-- End category -->
+          <!-- Start category -->
+          <div class="category">
+            <div class="category-icon">
+              <img src="assets/images/images (50).png" alt="category icon" />
+            </div>
+            <a href="#" class="underline-effect">Roofing</a>
+          </div>
+          <!-- End category -->
+          <!-- Start category -->
+          <div class="category">
+            <div class="category-icon">
+              <img src="assets/images/images (49).png" alt="category icon" />
+            </div>
+            <a href="#" class="underline-effect">Carpentry</a>
+          </div>
+          <!-- End category -->
+          <!-- Start category -->
+          <div class="category">
+            <div class="category-icon">
+              <img src="assets/images/images (48).png" alt="category icon" />
+            </div>
+            <a href="#" class="underline-effect">Landscaping</a>
+          </div>
+          <!-- End category -->
+        </div>
+      </div>
+    </section>
+    <!-- =============== end categories section ================ -->
+
+    <!-- =============== start popular projects section ================ -->
+
+    <section id="popular-projects">
+      <a class="left">
+        <div class="text">
+          <h2>Get matched with local pros</h2>
+          <p>for your next home project.</p>
+        </div>
+
+        <div class="image-bg">
+          <span></span>
+        </div>
+        <img src="assets/images/images (6).png" alt="House image" />
+      </a>
+
+      <div class="right">
+        <div class="section-heading">
+          <h2>Popular projects near you</h2>
+
+          <div class="viewAll">
+            <a href="">View all </a>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+
+        <div class="cards-wrapper">
+          <!-- start card -->
+          <a href="#">
+            <article class="card">
+              <div class="left">
+                <img src="assets/images/images (31).png" alt="card image" />
+              </div>
+
+              <div class="right">
+                <a href="#" class="underline-effect">Decks & porches</a>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <p>4.7</p>
+                  <span>(95)</span>
+                </div>
+                <p class="salary">From $1,890</p>
+              </div>
+            </article>
+          </a>
+          <!-- end card -->
+          <!-- start card -->
+          <a href="#">
+            <article class="card">
+              <div class="left">
+                <img src="assets/images/images (32).png" alt="card image" />
+              </div>
+
+              <div class="right">
+                <a href="#" class="underline-effect">Roof repair</a>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <p>4.5</p>
+                  <span>(48)</span>
+                </div>
+                <p class="salary">From $1,120</p>
+              </div>
+            </article>
+          </a>
+          <!-- end card -->
+          <!-- start card -->
+          <a href="#">
+            <article class="card">
+              <div class="left">
+                <img src="assets/images/images (33).png" alt="card image" />
+              </div>
+
+              <div class="right">
+                <a href="#" class="underline-effect">Applicant repair</a>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <p>4.8</p>
+                  <span>(113)</span>
+                </div>
+                <p class="salary">From $120</p>
+              </div>
+            </article>
+          </a>
+          <!-- end card -->
+          <!-- start card -->
+          <a href="#">
+            <article class="card">
+              <div class="left">
+                <img src="assets/images/images (28).png" alt="card image" />
+              </div>
+
+              <div class="right">
+                <a href="#" class="underline-effect">Gutter service</a>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <p>5.0</p>
+                  <span>(73)</span>
+                </div>
+                <p class="salary">From $390</p>
+              </div>
+            </article>
+          </a>
+          <!-- end card -->
+          <!-- start card -->
+          <a href="#">
+            <article class="card">
+              <div class="left">
+                <img src="assets/images/images (29).png" alt="card image" />
+              </div>
+
+              <div class="right">
+                <a href="#" class="underline-effect">Home cleaning</a>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <p>4.9</p>
+                  <span>(256)</span>
+                </div>
+                <p class="salary">From $75</p>
+              </div>
+            </article>
+          </a>
+          <!-- end card -->
+          <!-- start card -->
+          <a href="#">
+            <article class="card">
+              <div class="left">
+                <img src="assets/images/images (30).png" alt="card image" />
+              </div>
+
+              <div class="right">
+                <a href="#" class="underline-effect">Fence repair</a>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <p>4.8</p>
+                  <span>(29)</span>
+                </div>
+                <p class="salary">From $205</p>
+              </div>
+            </article>
+          </a>
+          <!-- end card -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =============== end popular projects section ================ -->
+
+    <!-- =============== Start popular home project section ================ -->
+
+    <section id="popular-home">
+      <div class="section-heading">
+        <h2>Popular home projects</h2>
+
+        <div class="viewAll">
+          <a href="">View all </a>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+      </div>
+      <div class="projects-wrapper">
+        <!-- Start project -->
+        <a href="#" class="project">
+          <div class="card-top">
+            <div class="card-background">
+              <img src="assets/images/images (4).png" alt="card background" />
+            </div>
+
+            <h3>One time cleaning service</h3>
+
+            <div class="like-btn">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="card-bottom">
+            <div class="info">
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <p>4.9</p>
+                <span>(256)</span>
+              </div>
+
+              <p>From $80</p>
+            </div>
+
+            <button class="btn">Book now</button>
+          </div>
+        </a>
+        <!-- end project -->
+        <!-- Start project -->
+        <a href="#" class="project">
+          <div class="card-top">
+            <div class="card-background">
+              <img src="assets/images/images (5).png" alt="card background" />
+            </div>
+            <h3>Handyperson for small projects</h3>
+
+            <div class="like-btn">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="card-bottom">
+            <div class="info">
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <p>4.7</p>
+                <span>(63)</span>
+              </div>
+
+              <p>From $250</p>
+            </div>
+
+            <button class="btn">Book now</button>
+          </div>
+        </a>
+        <!-- end project -->
+        <!-- Start project -->
+        <a href="#" class="project">
+          <div class="card-top">
+            <div class="card-background">
+              <img src="assets/images/images (3).png" alt="card background" />
+            </div>
+            <h3>Fence installation & repair</h3>
+
+            <div class="like-btn">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="card-bottom">
+            <div class="info">
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <p>4.8</p>
+                <span>(29)</span>
+              </div>
+
+              <p>From $310</p>
+            </div>
+
+            <button class="btn">Book now</button>
+          </div>
+        </a>
+        <!-- end project -->
+      </div>
+    </section>
+
+    <!-- =============== end popular home project section ================ -->
+
+    <!-- =============== Start expert advice section ================ -->
+
+    <section id="expert-advice">
+      <div class="section-heading">
+        <h2>Expert advice</h2>
+
+        <div class="viewAll">
+          <a href="">View all </a>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+      </div>
+
+      <div class="advices-wrapper">
+        <!-- start advice -->
+        <a href="#" class="advice">
+          <div class="left">
+            <img src="assets/images/images (25).png" alt="advice image" />
+          </div>
+          <div class="right">
+            <p class="categ">Cleaning</p>
+
+            <h3>Expert advice from masters of cleanliness</h3>
+
+            <p class="text">
+              Unlock the secrets to a spotless home with tips from cleaning
+              professionals. From tackling stubborn...
+            </p>
+
+            <span class="date">Oct 19, 2024</span>
+          </div>
+        </a>
+        <!-- end advice -->
+        <!-- start advice -->
+        <a href="#" class="advice">
+          <div class="left">
+            <img src="assets/images/images (24).png" alt="advice image" />
+          </div>
+          <div class="right">
+            <p class="categ">Flooring</p>
+
+            <h3>How to quickly clean laminate flooring</h3>
+
+            <p class="text">
+              Learn the fastest and most effective methods to clean laminate
+              flooring without damaging its surface...
+            </p>
+
+            <span class="date">Sep 13, 2024</span>
+          </div>
+        </a>
+        <!-- end advice -->
+        <!-- start advice -->
+        <a href="#" class="advice">
+          <div class="left">
+            <img src="assets/images/images (23).png" alt="advice image" />
+          </div>
+          <div class="right">
+            <p class="categ">Air conditions</p>
+
+            <h3>Choose air condition with air ionization</h3>
+
+            <p class="text">
+              Explore the benefits of air conditions with air ionization
+              technology. Find out how these units improve air...
+            </p>
+
+            <span class="date">Sep 05, 2024</span>
+          </div>
+        </a>
+        <!-- end advice -->
+        <!-- start advice -->
+        <a href="#" class="advice">
+          <div class="left">
+            <img src="assets/images/images (26).png" alt="advice image" />
+          </div>
+          <div class="right">
+            <p class="categ">Landscaping</p>
+
+            <h3>Landscaping ideas from top local experts</h3>
+
+            <p class="text">
+              Get inspired by creative landscaping ideas from the best local
+              experts. Whether you're revamping your garden...
+            </p>
+
+            <span class="date">Aug 26, 2024</span>
+          </div>
+        </a>
+        <!-- end advice -->
+      </div>
+    </section>
+
+    <!-- =============== end expert advice section ================ -->
+
+    <!-- =============== start how it works section ================ -->
+
+    <section id="howItWorks">
+      <h2>How it works</h2>
+      <p>
+        Effortlessly find, connect, and hire the perfect contractor for your job
+        - all in just three easy steps.
+      </p>
+
+      <div class="cards-wrapper">
+        <!-- Start card -->
+        <div class="card">
+          <img src="assets/images/images (43).png" alt="icon" />
+          <h4>Explore</h4>
+          <p>Browse through our curated list of contractors.</p>
+        </div>
+        <!-- End card -->
+        <!-- Start card -->
+        <div class="card">
+          <img src="assets/images/images (42).png" alt="icon" />
+          <h4>Connect</h4>
+          <p>Connect with them through our platform.</p>
+        </div>
+        <!-- End card -->
+        <!-- Start card -->
+        <div class="card">
+          <img src="assets/images/images (41).png" alt="icon" />
+          <h4>Get quotes and hire</h4>
+          <p>Receive quotes from interested contractors.</p>
+        </div>
+        <!-- End card -->
+      </div>
+    </section>
+
+    <!-- =============== end how it works section ================ -->
+
+    <!-- =============== start contact section ================ -->
+
+    <section id="contact">
+      <div class="left">
+        <h2>Grow your business with us. Become a Pro today</h2>
+
+        <div class="btns">
+          <button class="btn"><span>+</span> Add business</button>
+          <button class="btn">Learn more <span>></span></button>
+        </div>
+      </div>
+      <div class="right">
+        <img src="assets/images/images (1).png" alt="contact image" />
+      </div>
+    </section>
+
+    <!-- =============== end contact section ================ -->
+
+    <!-- =============== start getApp section ================ -->
+
+    <section id="getApp">
+      <div class="getApp-content">
+        <h2>Get finder app</h2>
+        <p>Explore top-rated certified pros</p>
+
+        <div class="btns">
+          <button class="btn">
+            <i class="fa-brands fa-apple"></i> App store
+          </button>
+          <button class="btn">
+            <img src="assets/images/images (47).png" alt="Google app" />Google
+            app
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============== end getApp section ================ -->
+
+    <!-- =============== Start pricing section ================ -->
+
+    <section id="pricing">
+      <div class="section-heading">
+        <h2>Common pricing references</h2>
+
+        <div class="viewAll">
+          <a href="">View all </a>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+      </div>
+
+      <div class="cards-wrapper">
+        <!-- Start card -->
+        <a href="#" class="card">
+          <div class="left">
+            <img src="assets/images/images (21).png" alt="card image" />
+          </div>
+
+          <div class="right">
+            <h3>Cleaning up after repairs</h3>
+
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <span class="rate">4.5</span>
+              <span class="count">(63)</span>
+
+              <p class="price">From $150</p>
+            </div>
+
+            <button class="btn">Book now</button>
+          </div>
+        </a>
+        <!-- End card -->
+        <!-- Start card -->
+        <a href="#" class="card">
+          <div class="left">
+            <img src="assets/images/images (22).png" alt="card image" />
+          </div>
+
+          <div class="right">
+            <h3>Cleaning up after repairs</h3>
+
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <span class="rate">4.5</span>
+              <span class="count">(63)</span>
+              <p class="price">From $150</p>
+            </div>
+
+            <button class="btn">Book now</button>
+          </div>
+        </a>
+        <!-- End card -->
+        <!-- Start card -->
+        <a href="#" class="card">
+          <div class="left">
+            <img src="assets/images/images (20).png" alt="card image" />
+          </div>
+
+          <div class="right">
+            <h3>Cleaning up after repairs</h3>
+
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <span class="rate">4.5</span>
+              <span class="count">(63)</span>
+              <p class="price">From $150</p>
+            </div>
+
+            <button class="btn">Book now</button>
+          </div>
+        </a>
+        <!-- End card -->
+        <!-- Start card -->
+        <a href="#" class="card">
+          <div class="left">
+            <img src="assets/images/images (19).png" alt="card image" />
+          </div>
+
+          <div class="right">
+            <h3>Cleaning up after repairs</h3>
+
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <span class="rate">4.5</span>
+              <span class="count">(63)</span>
+              <p class="price">From $150</p>
+            </div>
+
+            <button class="btn">Book now</button>
+          </div>
+        </a>
+        <!-- End card -->
+      </div>
+    </section>
+
+    <!-- =============== end pricing section ================ -->
+  </main>
+
+  <!-- =============== start footer================ -->
+
+  <footer>
+    <div class="footer-head">
+      <div class="left">
+        <i class="fa-regular fa-envelope"></i>
+        <p>Subscribe to our newsletter</p>
+        <button class="btn">Subscribe</button>
+      </div>
+      <div class="right">
+        <p>Need help?</p>
+        <a href="#">Contact us</a>
+      </div>
+    </div>
+
+    <div class="row-one">
+      <div class="col-one">
+        <a href="index.html" class="logo">
+          <img src="assets/images/logo.svg" alt="logo" />
+          <p>Finder</p>
+        </a>
+        <p>
+          Connecting you with reliable local contractors for all your service
+          needs.
+        </p>
+        <div class="social">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+
+      <div class="col-two">
+        <h3>Popular categories</h3>
+
+        <ul class="categories">
+          <a href="#">Air conditioning</a>
+          <a href="#">Cleaning</a>
+          <a href="#">Painting</a>
+          <a href="#">Health & furnace</a>
+          <a href="#">Electrician</a>
+          <a href="#">Carpentry</a>
+          <a href="#">Concrete</a>
+          <a href="#">Flooring</a>
+          <a href="#">Plumbing</a>
+          <a href="#">Pest control</a>
+          <a href="#">Roofing</a>
+          <a href="#">Landscaping</a>
+        </ul>
+      </div>
+
+      <div class="col-three">
+        <h3>Company</h3>
+
+        <ul class="categories">
+          <a href="#">About</a>
+          <a href="#">Press & announcements</a>
+          <a href="#">Careers at Finder</a>
+          <a href="#">Contact us</a>
+          <a href="#">Terms of us</a>
+          <a href="#">Privacy</a>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row-two">
+      <h3>Top cities</h3>
+
+      <ul>
+        <li><a href="#">New york</a></li>
+        <li><a href="#">Chicago</a></li>
+        <li><a href="#">Indianapolis</a></li>
+        <li><a href="#">Boston</a></li>
+        <li><a href="#">Atlanta</a></li>
+        <li><a href="#">Cincinnati</a></li>
+        <li><a href="#">Los Angeles</a></li>
+        <li><a href="#">Dallas</a></li>
+        <li><a href="#">Pittsburgh</a></li>
+        <li><a href="#">Tampa</a></li>
+      </ul>
+    </div>
+
+    <div class="row-three">
+      <p class="copyright">
+        &copy; All rights reversed. Made by <a href="https://github.com/Zaroscript">Zaroscript</a>
+      </p>
+
+      <ul class="payment">
+        <li><img src="assets/images/images (40).png" alt="Visa" /></li>
+        <li>
+          <img src="assets/images/images (37).png" alt="Master card" />
+        </li>
+        <li><img src="assets/images/images (38).png" alt="Paypal" /></li>
+        <li><img src="assets/images/images (39).png" alt="Google pay" /></li>
+        <li><img src="assets/images/images (36).png" alt="Apple pay" /></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- =============== end footer ================ -->
+
+  <body></body>
+</html>

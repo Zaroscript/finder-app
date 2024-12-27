@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finder | Account - Sign Up</title>
+
+    <link
+      rel="shortcut icon"
+      href="../../../assets/images/logo.svg"
+      type="image/x-icon"
+    />
+
+    <!-- Main style file -->
+    <link rel="stylesheet" href="../../../assets/css/main.css" />
+    <!-- sign up css file -->
+    <link rel="stylesheet" href="../../../assets/css/signUp.css" />
+
+    <!-- Google font (Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="sign-up">
+        <a href="../../../index.html" class="logo">
+          <img src="../../../assets/images/logo.svg" alt="logo" />
+          <span>Finder</span>
+        </a>
+
+        <form action="../../../index.html" method="post">
+          <h2>Create an account</h2>
+          <p>I already have an account <a href="signIn.html">Sign In</a></p>
+
+          <div class="input-fields">
+            <div class="email">
+              <label for="email">Email</label>
+              <input type="email" name="email" required />
+            </div>
+            <div class="password">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                name="email"
+                placeholder="Minimum 8 characters"
+                min="8"
+                id="password"
+                required
+              />
+
+              <i class="fa-regular fa-eye"></i>
+            </div>
+          </div>
+
+          <div class="actions">
+            <div class="action">
+              <div class="checkbox-wrapper-30">
+                <span class="checkbox">
+                  <input type="checkbox" />
+                  <svg>
+                    <use xlink:href="#checkbox-30" class="checkbox"></use>
+                  </svg>
+                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+                  <symbol id="checkbox-30" viewBox="0 0 22 22">
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      d="M5.5,11.3L9,14.8L20.2,3.3l0,0c-0.5-1-1.5-1.8-2.7-1.8h-13c-1.7,0-3,1.3-3,3v13c0,1.7,1.3,3,3,3h13 c1.7,0,3-1.3,3-3v-13c0-0.4-0.1-0.8-0.3-1.2"
+                    />
+                  </symbol>
+                </svg>
+              </div>
+              <label for="rememberMe">Save the password</label>
+            </div>
+            <div class="action">
+              <div class="checkbox-wrapper-30">
+                <span class="checkbox">
+                  <input type="checkbox" />
+                  <svg>
+                    <use xlink:href="#checkbox-30" class="checkbox"></use>
+                  </svg>
+                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+                  <symbol id="checkbox-30" viewBox="0 0 22 22">
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      d="M5.5,11.3L9,14.8L20.2,3.3l0,0c-0.5-1-1.5-1.8-2.7-1.8h-13c-1.7,0-3,1.3-3,3v13c0,1.7,1.3,3,3,3h13 c1.7,0,3-1.3,3-3v-13c0-0.4-0.1-0.8-0.3-1.2"
+                    />
+                  </symbol>
+                </svg>
+              </div>
+              <label for="rememberMe"
+                >I have read and accept the
+                <a href="privacyPolicy.html">Privacy Policy</a></label
+              >
+            </div>
+          </div>
+
+          <button type="submit" class="btn">
+            Create an account <i class="fa-solid fa-angle-right"></i>
+          </button>
+
+          <div class="otherMethods">
+            <div class="heading">
+              <span class="line"></span>
+              <p>or continue with</p>
+              <span class="line"></span>
+            </div>
+
+            <ul class="signIn-links">
+              <li>
+                <i class="fa-brands fa-google"></i>
+                <span>Google</span>
+              </li>
+              <li>
+                <i class="fa-brands fa-facebook-f"></i>
+                <span>Facebook</span>
+              </li>
+              <li>
+                <i class="fa-brands fa-apple"></i>
+                <span>Apple</span>
+              </li>
+            </ul>
+          </div>
+        </form>
+
+        <footer>
+          <a href="../../otherPages/help.html">Need help?</a>
+          <p>
+            &copy; All rights reserved. Made by
+            <a href="https://github.com/Zaroscript">Zaroscript</a>
+          </p>
+        </footer>
+      </section>
+      <div class="benefits">
+        <h2>Finder account benefits</h2>
+
+        <div class="card-wrapper">
+          <!-- start card -->
+          <div class="card">
+            <div class="icon"><i class="fa-regular fa-envelope"></i></div>
+            <p>Subscribe to your favorite listings</p>
+          </div>
+          <!-- end card -->
+          <!-- start card -->
+          <div class="card">
+            <div class="icon"><i class="fa-solid fa-gear"></i></div>
+            <p>Manage your bookings and wishlist</p>
+          </div>
+          <!-- end card -->
+          <!-- start card -->
+          <div class="card">
+            <div class="icon"><i class="fa-solid fa-gift"></i></div>
+            <p>Earn rewards for future purchases</p>
+          </div>
+          <!-- end card -->
+          <!-- start card -->
+          <div class="card">
+            <div class="icon"><i class="fa-solid fa-percent"></i></div>
+            <p>Receive exclusive offers and discounts</p>
+          </div>
+          <!-- end card -->
+          <!-- start card -->
+          <div class="card">
+            <div class="icon"><i class="fa-regular fa-heart"></i></div>
+            <p>Create multiple wishlists</p>
+          </div>
+          <!-- end card -->
+          <!-- start card -->
+          <div class="card">
+            <div class="icon"><i class="fa-solid fa-chart-pie"></i></div>
+            <p>Pay for purchases by installments</p>
+          </div>
+          <!-- end card -->
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
